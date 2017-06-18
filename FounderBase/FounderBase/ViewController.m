@@ -18,6 +18,7 @@
     [super viewDidLoad];
     //测试一下忽略文件
     NSLog(@"测试合并冲突");
+    NSLog(@"有啥变化");
 }
 
 
