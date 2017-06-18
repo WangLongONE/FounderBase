@@ -21,8 +21,13 @@
     NSLog(@"有啥变化");
     NSLog(@"---------------");
 }
+-(void)test{
+    NSLog(@"测试在dev中更改");
+}
 
-
+-(void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    NSLog(@"move and end");
+}
 
 
 
