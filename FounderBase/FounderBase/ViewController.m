@@ -24,8 +24,9 @@
 -(void)test{
     NSLog(@"测试在dev中更改");
 }
--(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    NSLog(@"end");
+
+-(void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    NSLog(@"move and end");
 }
 
 
