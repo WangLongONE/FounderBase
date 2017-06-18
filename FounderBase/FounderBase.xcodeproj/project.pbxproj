@@ -15,6 +15,7 @@
 		047928A71EF68DF2008792DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047928A51EF68DF2008792DD /* LaunchScreen.storyboard */; };
 		047928B21EF68DF2008792DD /* FounderBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047928B11EF68DF2008792DD /* FounderBaseTests.m */; };
 		047928BD1EF68DF2008792DD /* FounderBaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047928BC1EF68DF2008792DD /* FounderBaseUITests.m */; };
+		047928CD1EF693E4008792DD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 047928CC1EF693E4008792DD /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		047928B81EF68DF2008792DD /* FounderBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FounderBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		047928BC1EF68DF2008792DD /* FounderBaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FounderBaseUITests.m; sourceTree = "<group>"; };
 		047928BE1EF68DF2008792DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047928CB1EF693E4008792DD /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		047928CC1EF693E4008792DD /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 		047928CA1EF68F94008792DD /* FounderBase */ = {
 			isa = PBXGroup;
 			children = (
+				047928CB1EF693E4008792DD /* Person.h */,
+				047928CC1EF693E4008792DD /* Person.m */,
 			);
 			path = FounderBase;
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 			files = (
 				0479289F1EF68DF2008792DD /* ViewController.m in Sources */,
 				0479289C1EF68DF2008792DD /* AppDelegate.m in Sources */,
+				047928CD1EF693E4008792DD /* Person.m in Sources */,
 				047928991EF68DF2008792DD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
