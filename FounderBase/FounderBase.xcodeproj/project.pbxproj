@@ -107,6 +107,7 @@
 				0479289E1EF68DF2008792DD /* ViewController.m */,
 				047928A01EF68DF2008792DD /* Main.storyboard */,
 				047928A31EF68DF2008792DD /* Assets.xcassets */,
+				047928CA1EF68F94008792DD /* FounderBase */,
 				047928A51EF68DF2008792DD /* LaunchScreen.storyboard */,
 				047928A81EF68DF2008792DD /* Info.plist */,
 				047928971EF68DF2008792DD /* Supporting Files */,
@@ -138,6 +139,13 @@
 				047928BE1EF68DF2008792DD /* Info.plist */,
 			);
 			path = FounderBaseUITests;
+			sourceTree = "<group>";
+		};
+		047928CA1EF68F94008792DD /* FounderBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FounderBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
